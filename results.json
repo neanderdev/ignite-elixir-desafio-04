@@ -1,0 +1,29 @@
+{
+  "excluded": [],
+  "failed": [],
+  "invalid": [],
+  "passed": [
+    {
+      "describe": "get/1",
+      "file": "s:/ignite-elixir-desafio-04/test/bookings/booking_agent_test.exs",
+      "line": 34,
+      "module": "Elixir.Flightex.Bookings.AgentTest",
+      "test": "test get/1 when the user is found, return a booking"
+    },
+    {
+      "describe": "get/1",
+      "file": "s:/ignite-elixir-desafio-04/test/bookings/booking_agent_test.exs",
+      "line": 53,
+      "module": "Elixir.Flightex.Bookings.AgentTest",
+      "test": "test get/1 when the user wasn't found, returns an error"
+    },
+    {
+      "describe": "save/1",
+      "file": "s:/ignite-elixir-desafio-04/test/bookings/booking_agent_test.exs",
+      "line": 15,
+      "module": "Elixir.Flightex.Bookings.AgentTest",
+      "test": "test save/1 when the param are valid, return a booking uuid"
+    }
+  ],
+  "skiped": []
+}
