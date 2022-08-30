@@ -18,5 +18,7 @@ defmodule Flightex.Users.CreateOrUpdate do
     {:ok, "User created or updated successfully"}
   end
 
+  # coveralls-ignore-start
   defp save_user({:error, _reason} = error), do: error
+  # coveralls-ignore-stop
 end
